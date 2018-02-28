@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+* {
+margin: 0;
+
+}
+
+html,body {
+	height: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+header{
+	background: url("images/heroImage1.jpeg")no-repeat 50% 50%;    
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;  
+}
+
+nav{
+	font-family: Oswald, sans-serif;
+}
+
+h1{
+	color: #F9F3F4;
+	font-size: 500%; 
+	font-family: Raleway, sans-serif;
+	padding-top: 200px;   
+	text-align: center;
+	text-shadow: 0px 0px 300px #000; 
+}
+
+h2 {
+	color: black;
+	font-size: 200%; 
+	font-family: Oswald, sans-serif;
+	text-align: center;	
+}
+
+h3 {
+	color: black;
+	font-size: 150%; 
+	font-family: Oswald, sans-serif;
+	padding: 5px;    
+	text-align: center;	    
+}
+
+h4 {
+	color: black;
+	font-size: 100%; 
+	font-family: Oswald, sans-serif;
+	padding: 10px 2px 10px 5px;  
+	text-align: left;	        
+}
+
+h5 {
+	color: black;
+	font-size: 90%; 
+	font-family: Oswald, sans-serif;
+	padding: 2px 2px 5px 5px;  
+	text-align: left;	    	 
+}
+
+.resumeText {
+	color: black;
+	font-size: 100%; 
+	font-family: Oswald, sans-serif;
+	padding-top: 10px 5px 10px 5px;   
+	text-align: left;
+}
+
+p {
+	color: #8080ff;
+	font-size: 200%;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.aboutMeText{
+	color: black;
+	font-size: 125%;
+	font-family: Oswald, sans-serif;
+	padding-top: 10px;	
+	text-align: center;	
+}
+
+.iconSection {
+	background-color: white;    
+	display: inline-block;
+	height: 50%;
+	width: 30%;    
+	padding: 10px;         
+}
+
+.image,.imageIcon{       
+	margin: 0 auto;
+}
+/*Button styling*/
+.btn {
+	color: #036AB1;
+	border-radius: 9px;
+	border: solid #036AB1 3px;
+	font-family: Oswald, sans-serif;
+	font-size:135%;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+.btn:hover {
+    color: black;
+    border: solid black 3px;
+}
+/*Footer*/
+footer {
+	background-color: rgba(0,0,0,.5); 
+	border-bottom-right-radius: 3px;
+	border-bottom-left-radius: 3px;
+	padding: 10px 15px;
+}
+
+.footerText{
+	color: white;
+	font-size: 110%;
+	font-family: Oswald, sans-serif; 
+	padding: 5px 0px 0px 5px;	
+}
+
+.fa {
+	border-radius:50%;	
+	font-size: 10px;
+	margin: 5px 2px;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	width: 50px;
+}
+
+.fa:hover {
+	opacity: .7;
+}
+
+.fa-facebook {
+	color: white;
+    background: #3B5998;
+}
+
+.fa-twitter {
+	color: white;
+    background: #55ACEE;
+}
+
+.fa-instagram {
+	color: white;
+	background: #125688;
+}
+
+.fa-linkedin {
+	color: white;
+	background: #007bb5;
+}
+
+@media screen and (max-width: 768px){
+    
+h1{
+	font-size: 250%;
+}
+   
+p,.aboutMeText  {
+	font-size: 100%;   
+}
+	
+}
+
